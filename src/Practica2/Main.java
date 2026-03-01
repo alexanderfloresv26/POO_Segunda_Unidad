@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // 1️⃣ Crear mercancía
+        //Crear mercancía
         Mercancia arroz = new Mercancia("Arroz", 50, "01/03/2026", 20);
         System.out.println("Mercancia creada:");
         System.out.println(arroz);
