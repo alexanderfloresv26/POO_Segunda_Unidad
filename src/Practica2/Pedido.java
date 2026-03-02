@@ -29,6 +29,11 @@ public class Pedido {
         }
     }
 
+    public void cancelarPedido (){
+        provedoor.cancelarPedido(this);
+        mercancia.eliminarPedido(this);
+    }
+
     public int getCantidadP() {
         return cantidadP;
     }
